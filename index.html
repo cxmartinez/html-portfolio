@@ -2,69 +2,73 @@
 <html lang="en">
 
 <head>
-    <title>My Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <title>Christian Martinez</title>
 </head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="./index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://cxmartinez.github.io/html-portfolio/">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./hobbies.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact Me</a>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 <body>
-    <h1>Summary</h1>
+  <div class="top-section">
+  <div class="title-text">
+    <h1>&lt;"Hello, Christian!"/&gt;</h1>
+  </div>
+<br>
+  <div class="hero">
+    <img src="./images/heroimg.jpg" style="width: 200px; height: 300px; object-fit: cover;" alt="profile picture">
+  </div>
+  <br>
+  <div class="header">
+    <h2>Hello.</h2>
+  </div>
+  <div class="intro">
     <p>I am a cybersecurity student and am currently learning web development.</p>
+  </div>
+  <div class="header">
+    <h2>Projects</h2>
+  </div>
+  <div class="parent">
+    <div class="pi-img">
+      <img src="./images/pi.jpg" alt="Raspberry Pi">
+    </div>
+    <div class="pi">
+      <h3>Raspberry Pi</h3>
+      <p>I have worked with the Raspberry Pi to work on many projects including FLIR cameras, self hosted websites, security and vulnerability testing with Kali, and creating a dual boot OS program.</p>
+          </div>
+    <div class="implant">
+      <img class="implant-img" src="./images/implant.jpg" alt="Implants">
+    </div>
+    <div class="implant">
+      <h3>Biohacking</h3>
+      <p>I have had two implants put into my hand being a RFID/NFC microchip and a diametric biomagnet. I have spent lots of time with the biohacking community and programming my own chip.</p>
+    </div>
     
-    <img src="./assets/me.jpg" height="250" width="200" alt="me" /></a>
+  </div>
+  </body>
 
-    <h1>Education</h1>
-    <ul>
-        <li>Associate of Applied Science Technology - Computer Information Technology – 2021</li>
-        <li>Certificate of Achievement - Cybersecurity Technician - 2021</li>
-        <li>Carson High School - Graduated with a 4.25 GPA, an Honors diploma, and a CTE diploma – 2018</li>
-    </ul>
-    <hr>
-    <h1>Work Experience</h1>
-    <ul>
-        <li>Public Service Intern, State of Nevada Enterprise IT Services -- 12/2019-Present</li>
-        <li>Cashier Assistant, Costco Wholesale -- 07/2018-12/2019</li>
-        <li>Professional Magician -- 2015-2019</li>
-    </ul>
-    <hr>
-    <h1>Skills</h1>
-    <ul>
-        <li>Analytic thinking</li>
-        <li>Trainability</li>
-        <li>Troubleshooting hardware and software issues</li>
-        <li>Communicate technical terms to non-technical users in a friendly and effective way</li>
-        <li>Problem solving</li>
-        <li>Utilize research tools</li>
-        <li>Time management and detailed logging</li>
-        <li>Can work well both solo and with a team</li>
-        <li>Basic SQL database knowledge (SSMS)</li>
-        <li>Web Development (HTML, CSS)</li>
-        <li>Physical/Cyber security knowledge and tools (Wireshark, Metasploit, Nmap, Snort, OpenSSL)</li>
-    </ul>
-    <hr>
-    <h1>Certifications</h1>
-    <ul>
-        <li>Associate of Applied Science Technology - Computer Information Technology – 2021</li>
-        <li>Certificate of Achievement - Cybersecurity Technician - 2021</li>
-        <li>NCLAB Certificate - Predictive Data Analytics with Python – 2020</li>
-        <li>TestOut Certified Ethical Hacker Pro - 2022</li>
-        <li>TestOut Server Pro 2016 Install and Storage - 2022</li>
-        <li>TestOut Server Pro 2016 Identity – 2019</li>
-        <li>TestOut Certified Linux Pro – 2019</li>
-        <li>TestOut Certified Security Pro – 2018</li>
-        <li>Certificate of Skill Attainment Information Technology-Service and Support – 2018</li>
-        <li>Certificate of Skill Attainment Architectural and Civil Engineering – 2018</li>
-        <li>CTECS Industry Certified Workplace Readiness Skills – 2018</li>
-    </ul>
-    <hr>
-
-    <a href="./public/contact.html">Contact info</a>
-    <br>
-    <a href="./public/hobbies.html">Hobbies</a>
-
-    <footer>
-        <p>© 2023 Christian Martinez</p>
-    </footer>
-
-
-
-</body>
+  <div class="footer">
+    <footer>© 2023 Christian Martinez</footer>
+  </div>
 </html>
